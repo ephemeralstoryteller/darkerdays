@@ -201,7 +201,6 @@
     "armor_cut": 2,
     "vision_day": 50,
     "vision_night": 5,
-    "harvest": "mon_gr_prelate",
     "harvest": "exempt",
     "path_settings": { "max_dist": 10 },
     "special_attacks": [
@@ -257,7 +256,6 @@
     "armor_cut": 3,
     "vision_day": 50,
     "vision_night": 30,
-    "harvest": "mon_gr_hierarch",
     "harvest": "exempt",
     "path_settings": { "max_dist": 10 },
     "special_attacks": [
