@@ -182,14 +182,14 @@
     "default_faction": "grafter",
     "bodytype": "human",
     "species": [ "ABERRATION", "ROBOT" ],
-    "diff": 20,
+    "diff": 10,
     "volume": "30000 ml",
     "weight": "40750 g",
     "hp": 100,
     "speed": 100,
     "material": [ "flesh" ],
-    "symbol": "Z",
-    "color": "dark_gray",
+    "symbol": "P",
+    "color": "i_red",
     "aggression": 5,
     "morale": 100,
     "melee_skill": 4,
@@ -209,11 +209,12 @@
         "type": "spell",
         "spell_id": "dd_tkstrike",
         "cooldown": 20,
-        "monster_message": "%1$s telekineticly gathers nearby debris and hurls them at %s!"
+        "monster_message": "%1$s telekineticly gathers nearby debris and hurls them at %3$s!"
       }
     ],
-    "anger_triggers": [ "HURT", "PLAYER_CLOSE", "PLAYER_WEAK" ],
-    "death_function": [ "NORMAL" ],
+    "anger_triggers": [ "HURT", "PLAYER_CLOSE" ],
+    "death_drops": "mon_gr_prelate",
+    "death_function": [ "MELT" ],
     "flags": [
       "SEES",
       "HEARS",
@@ -267,7 +268,7 @@
         "monster_message": "%1$s telekineticly gathers nearby debris and hurls them at %s!"
       }
     ],
-    "death_drops": "mon_zombie_technician_death_drops",
+    "death_drops": "mon_gr_hierarch",
     "anger_triggers": [ "HURT", "PLAYER_CLOSE" ],
     "death_function": [ "MELT" ],
     "flags": [
