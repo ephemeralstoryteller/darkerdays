@@ -3,7 +3,7 @@
   {
     "type": "MONSTER_FACTION",
     "name": "grafted",
-    "by_mood": [ "small_animal", "nether" ],
+    "by_mood": [ "small_animal", "nether" ]
   },
   {
     "type": "MONSTER_FACTION",

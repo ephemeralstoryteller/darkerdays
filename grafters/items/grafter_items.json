@@ -10,7 +10,7 @@
     "material": [ "otherworld_silk" ],
     "symbol": "[",
     "looks_like": "holo_cloak",
-    "color": "light_magenta",
+    "color": "magenta",
     "covers": [ "TORSO", "ARMS", "LEGS" ],
     "coverage": 90,
     "encumbrance": 4,
