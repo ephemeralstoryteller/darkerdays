@@ -1,0 +1,104 @@
+[
+  {
+    "type": "speech",
+    "speaker": "mon_gr_grunt",
+    "sound": "\"Hostile spotted.\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_gr_grunt",
+    "sound": "\"Hostile spotted.\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_gr_grunt",
+    "sound": "\"Hostile spotted.\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_gr_grunt",
+    "sound": "\"I see them.\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_gr_grunt",
+    "sound": "\"Tracking.\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_gr_grunt",
+    "sound": "\"Tracking.\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_gr_grunt",
+    "sound": "\"Sector not secure.\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_gr_grunt",
+    "sound": "\"Moving to engage.\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_gr_grunt",
+    "sound": "\"Moving to engage.\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_gr_grunt",
+    "sound": "\"Eyes on them.\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_gr_grunt",
+    "sound": "a cruel chuckle.",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_gr_grunt",
+    "sound": "a cruel chuckle.",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_gr_sledge",
+    "sound": "the revving of a chainsaw!",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_gr_sledge",
+    "sound": "a chainsaw idling.",
+    "volume": 12
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_gr_sledge",
+    "sound": "a chainsaw idling.",
+    "volume": 12
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_gr_sledge",
+    "sound": "a chainsaw idling.",
+    "volume": 12
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_gr_sledge",
+    "sound": "a chainsaw idling.",
+    "volume": 12
+  }  
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "darkerdays",
+    "name": "Darker Days",
+    "authors": [ "ephemeral_storyteller" ],
+    "description": "Adds a variety of new locations to explore and monsters to fight, priamrily themed after darker tones.",
+    "category": "creatures",
+    "dependencies": [ "dda" ]
+  }
+]
