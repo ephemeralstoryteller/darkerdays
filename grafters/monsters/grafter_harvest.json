@@ -28,8 +28,8 @@
       { "drop": "receiver", "type": "bionic", "base_num": [ 0, 2 ] },
       { "drop": "shocktonfa_off", "type": "bionic", "base_num": [ 0, 1 ] }
     ]
-  }
-   {
+  },
+  {
     "id": "grafter",
     "type": "harvest",
     "message": "You search through the dizzying workings of the alien machines and the feeble creature connected to it.",
