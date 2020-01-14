@@ -2,13 +2,12 @@
   {
     "id": "grafted",
     "type": "harvest",
-    "message": "You messily hack apart the hulking mass of rancid meat and metal, searching for anything worthwhile.",
+    "message": "You hack apart the hulking mass of rancid meat and metal, searching for anything worthwhile.",
     "entries": [
-      { "drop": "motor_oil", "type": "flesh", "mass_ratio": 0.1 },
-      { "drop": "blood", "type": "flesh", "mass_ratio": 0.1 },
       { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.33 },
-      { "drop": "cable", "type": "flesh" },
-      { "drop": "scrap", "base_num": [ 1, 5 ], "scale_num": [ 0.3, 0.7 ], "max": 12, "type": "bone" },
+      { "drop": "cable", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "scrap", "type": "bone", "mass_ratio": 0.1 },
+      { "drop": "steel_chunk", "type": "bone", "mass_ratio": 0.01 },
       { "drop": "e_scrap", "type": "bionic", "base_num": [ 0, 3 ] },
       { "drop": "receiver", "type": "bionic", "base_num": [ 0, 2 ] }
     ]
@@ -16,31 +15,32 @@
   {
     "id": "grafted_human",
     "type": "harvest",
-    "message": "You pry the corpse from its metal exoskeleton, trying not to think of who it once was.",
+    "message": "You pry the corpse from its exoskeleton, trying to ignore a sickening stench of both sepsis and cleaning agents wafting from it.",
     "entries": [
-      { "drop": "blood", "type": "flesh", "mass_ratio": 0.1 },
-      { "drop": "motor_oil", "type": "flesh", "mass_ratio": 0.001 },
-      { "drop": "human_flesh", "type": "flesh", "mass_ratio": 0.2 },
-      { "drop": "fat", "type": "flesh", "mass_ratio": 0.1 },
-      { "drop": "scrap", "type": "bone", "mass_ratio": 0.01 },
-      { "drop": "sinew", "type": "bone", "mass_ratio": 0.01 },
-      { "drop": "cable", "base_num": [ 1, 3 ], "scale_num": [ 0.2, 0.6 ], "max": 8, "type": "flesh" },
+      { "drop": "human_flesh", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "human_fat", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "scrap", "type": "bone", "mass_ratio": 0.1 },
+      { "drop": "steel_chunk", "type": "bone", "mass_ratio": 0.01 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "cable", "type": "flesh", "mass_ratio": 0.01 },
       { "drop": "e_scrap", "type": "bionic", "base_num": [ 0, 3 ] },
-      { "drop": "receiver", "type": "bionic", "base_num": [ 0, 2 ] },
-      { "drop": "shocktonfa_off", "type": "bionic", "base_num": [ 0, 1 ] }
+      { "drop": "receiver", "type": "bionic", "base_num": [ 0, 2 ] }
     ]
   },
   {
-    "id": "grafter",
+    "id": "grafted_human2",
     "type": "harvest",
-    "message": "You search through the dizzying workings of the alien machines and the feeble creature connected to it.",
+    "message": "You pry the corpse from its thick exoskeleton, trying to ignore a sickening stench of both sepsis and cleaning agents wafting from it.",
     "entries": [
-      { "drop": "motor_oil", "type": "flesh", "mass_ratio": 0.1 },
-      { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.05 },
-      { "drop": "cable", "type": "flesh", "mass_ratio": 0.1 },
-      { "drop": "scrap", "type": "bone", "mass_ratio": 0.3 },
+      { "drop": "human_flesh", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "human_fat", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "scrap", "type": "bone", "mass_ratio": 0.1 },
+      { "drop": "steel_chunk", "type": "bone", "mass_ratio": 0.01 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "cable", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "e_scrap", "type": "bionic", "base_num": [ 0, 3 ] },
       { "drop": "receiver", "type": "bionic", "base_num": [ 0, 2 ] },
-      { "drop": "e_scrap", "type": "bionic", "base_num": [ 1, 3 ], "scale_num": [ 0.1, 0.5 ], "max": 8 }
+      { "drop": "shocktonfa_off", "type": "bionic", "base_num": [ 0, 1 ] }
     ]
   }
 ]

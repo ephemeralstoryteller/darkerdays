@@ -1,0 +1,57 @@
+[
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_gr_animal",
+    "entries": [
+      { "item": "steel_chunk", "count": [ 2, 6 ] },
+      { "item": "scrap", "count": [ 0, 10 ] },
+      { "item": "scrap", "count": [ 0, 20 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_gr_legion",
+    "entries": [
+      { "item": "steel_chunk", "count": [ 1, 5 ] },
+      { "item": "scrap", "count": [ 0, 6 ] },
+      { "item": "scrap", "count": [ 0, 12 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_gr_despot",
+    "entries": [
+      { "item": "steel_chunk", "count": [ 0, 3 ] },
+      { "item": "steel_plate", "count": [ 0, 3 ], "damage": [ 0, 4 ] },
+      { "item": "scrap", "count": [ 0, 6 ] },
+      { "item": "scrap", "count": [ 0, 12 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_gr_prelate",
+    "entries": [
+      { "item": "gr_cloak", "damage": [ 0, 2 ], "prob": 70 },
+      { "item": "e_scrap", "count": [ 1, 4 ] },
+      { "item": "amplifier", "count": [ 0, 1 ] },
+      { "item": "scrap", "count": [ 0, 3 ] },
+      { "item": "scrap", "count": [ 0, 6 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_gr_hierarch",
+    "entries": [
+      { "item": "gr_cloak2", "damage": [ 0, 2 ] },
+      { "item": "e_scrap", "count": [ 2, 5 ] },
+      { "item": "amplifier", "count": [ 0, 2 ] },
+      { "item": "scrap", "count": [ 0, 3 ] },
+      { "item": "scrap", "count": [ 0, 6 ] }
+    ]
+  }
+]
