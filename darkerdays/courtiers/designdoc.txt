@@ -2,25 +2,30 @@ the courtiers are modelled after demons mixed with dark fantasy, like heretic. l
 
 pawn - lowly serfs who can promote up into basic soldiers. generally fairly passive.
 pawn -> warrior -> sergeant -> knight
-pawn -> hunter -> knave
+pawn -> knave
 
 warrior: basic soldier type, ok armor ok attack. roughly equiv to a cop z. still not super aggressive, a guard
 sergeant: veteran warrior, essentially. better armor and attack. 
 
-
-rook - brutish attack animals. consider making a seperate faction for infighting
-rook -> vanguard
+knave: lighter fighter who is invisible in the dark
 
 
 knight - leaping fighters with good armor and good attack. fairly dangerous.
 knight -> nightrider
 knight -> antipaladin
 
+nightrider: big leaps, invisible @ night
+antipaladin: smaller leaps but ranged attack
 
+rook - brutish attack animals. consider making a seperate faction for infighting
+rook -> vanguard
+
+vanguard: heavily armored variant of the rook, slower and a bit smarter
 
 bishop - spellcasters who mix buffs and pressuring ranged attacks (blood magic and fire)
-bishop -> cardinal -> antipontiff
+bishop -> cardinal
+
+cardinal: suped up bishop
 
 
-prince, king
-princess, queen
+marshal, duke
