@@ -1,4 +1,45 @@
 [
-
+    "id": "mon_courtier_serf",
+    "type": "MONSTER",
+    "name": "courtier pawn",
+    "description": "A humanoid swaddled in shabby clothes that hide its leathery skin, long limbs terminating in dull claws caked with filth. A mere peasant among its kind, it wanders passively to and fro, doing menial labor and chatting to its fellows in a strange, hmyn-like language.",
+    "default_faction": "courtier",
+    "bodytype": "human",
+    "categories": [ "CLASSIC" ],
+    "species": [ "COURTIER" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 80,
+    "speed": 100,
+    "material": [ "flesh" ],
+    "symbol": "p",
+    "color": "white",
+    "aggression": 5,
+    "morale": 80,
+    "melee_skill": 4,
+    "melee_dice": 2,
+    "melee_dice_sides": 4,
+    "melee_cut": 1,
+	"dodge": 1,
+    "vision_night": 15,
+    "harvest": "court_leather",
+    "special_attacks": [ [ "GRAB", 7 ], [ "scratch", 20 ] ],
+    "death_drops": "courtier_serf_drop",
+    "death_function": [ "NORMAL" ],
+    "upgrades": { "half_life": 14, "into_group": "group_pawn_upgrade" },
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "BONES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+	  "GROUP_MORALE",
+      "BLEED",
+      "PUSH_MON"
+    ]
+  },
+  
 
 ]
