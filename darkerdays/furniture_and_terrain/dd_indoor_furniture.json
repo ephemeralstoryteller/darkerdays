@@ -1,0 +1,114 @@
+[
+  {
+    "type": "furniture",
+    "id": "dd_f_chest_l",
+    "name": "chest",
+    "description": "A closed chest. Locked, from the looks of it. Pick it! Or just smash it, but you might break the contents.",
+    "symbol": "]",
+    "bgcolor": "brown",
+    "move_cost_mod": -1,
+    "coverage": 60,
+    "required_str": 12,
+    "flags": [
+      "TRANSPARENT",
+      "CONTAINER",
+      "SEALED",
+      "ALLOW_FIELD_EFFECT",
+      "FLAMMABLE",
+      "PLACE_ITEM",
+      "ORGANIC",
+      "LOCKED",
+      "MOUNTABLE",
+      "SHORT"
+    ],
+    "examine_action": "locked_object",
+    "deconstruct": {
+      "items": [ { "item": "2x4", "count": 4 }, { "item": "wood_panel", "count": [ 1, 2 ] }, { "item": "nail", "charges": [ 6, 10 ] } ]
+    },
+    "bash": {
+      "str_min": 12,
+      "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "wham!",
+      "items": [ { "item": "2x4", "count": [ 1, 5 ] }, { "item": "nail", "charges": [ 2, 10 ] } ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "dd_f_chest",
+    "name": "chest",
+    "description": "An unlocked wooden chest. Might be something good inside.",
+    "symbol": "o",
+    "bgcolor": "brown",
+    "move_cost_mod": -1,
+    "coverage": 60,
+    "required_str": 10,
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE", "PLACE_ITEM", "ORGANIC", "MOUNTABLE", "SHORT" ],
+    "deconstruct": {
+      "items": [ { "item": "2x4", "count": 4 }, { "item": "wood_panel", "count": [ 0, 1 ] }, { "item": "nail", "charges": [ 6, 10 ] } ]
+    },
+    "bash": {
+      "str_min": 12,
+      "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "wham!",
+      "items": [ { "item": "2x4", "count": [ 1, 5 ] }, { "item": "nail", "charges": [ 2, 10 ] } ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "dd_f_barrel_l",
+    "name": "barrel",
+    "description": "A firmly sealed wooden barrel. Open it to see what's inside.",
+    "symbol": "o",
+    "bgcolor": "red",
+    "move_cost_mod": -1,
+    "coverage": 60,
+	"//": "a bit easier to move than a crate, given that you may be able to tip it over and roll it about. hopefully. ;p",
+    "required_str": 10,
+    "flags": [
+      "TRANSPARENT",
+      "CONTAINER",
+      "SEALED",
+      "ALLOW_FIELD_EFFECT",
+      "FLAMMABLE",
+      "PLACE_ITEM",
+      "ORGANIC",
+      "MOUNTABLE",
+      "SHORT"
+    ],
+    "examine_action": "locked_object",
+    "deconstruct": {
+      "items": [ { "item": "2x4", "count": 4 }, { "item": "wood_panel", "count": [ 1, 2 ] }, { "item": "nail", "charges": [ 6, 10 ] } ]
+    },
+    "bash": {
+      "str_min": 12,
+      "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "wham!",
+      "items": [ { "item": "2x4", "count": [ 1, 5 ] }, { "item": "nail", "charges": [ 2, 10 ] } ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "dd_f_barrel",
+    "name": "open barrel",
+    "description": "A barrel, though the lid could be moved easily. Might be something good inside.",
+    "symbol": "o",
+    "bgcolor": "brown",
+    "move_cost_mod": -1,
+    "coverage": 60,
+    "required_str": 9,
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE", "PLACE_ITEM", "ORGANIC", "MOUNTABLE", "SHORT" ],
+    "deconstruct": {
+      "items": [ { "item": "2x4", "count": 4 }, { "item": "wood_panel", "count": [ 0, 1 ] }, { "item": "nail", "charges": [ 6, 10 ] } ]
+    },
+    "bash": {
+      "str_min": 12,
+      "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "wham!",
+      "items": [ { "item": "2x4", "count": [ 1, 5 ] }, { "item": "nail", "charges": [ 2, 10 ] } ]
+    }
+  }	
+]

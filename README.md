@@ -1,14 +1,22 @@
 # darkerdays: a mod for Cataclysm: Dark Days Ahead
 
-Darker Days is a content mod that aims to add new locations and monsters to the game, focused primarily on dark fantasy and sci-fi aesthetics. Despite the somewhat ominous name, core gameplay isn't touched, instead intending to enchance a sense of exploration. 
+Darker Days is a locations mod turned total conversion (TC) that shifts the game towards dark fantasy. Though set in a fictionalized version of the 14th century eastern Europe for a bit of creative license, much is kept consistent with reality. Half the fun, after all, is battling demons while clad in period-appropriate armor and survivng by foraging relatively familiar plants!
+
+Enjoy!
+
+## Story
+
+A shadow most foul has swept over the world, boiling out from the dark corners of the earth. An unending wave, they seek to erradicate of civilization as you know it to erect a new order of tyranny through violence and slavery. Caught in the center of a titanic fight between good and evil, it is all you can do to find a way to survive the darker days ahead. 
+
+
+# Meta
+Being a TC, this mod will probably not work with other mods. Likewise, tileset support is patchy, however I'll be making good use of looks_like.
+Cataclysm: DDA was not originally intended to take place in the Middle Ages, so there may be some bugs or other weird glitches. 
 
 ## Installation
 1. Download the master branch
-2. Place the resulting .zip into your mods folder. If you use the C:DDA launcher, I'd reccomend putting a copy in a seperate folder outside of the C:DDA's install that the launcher for ease of re-adding.
+2. Place the resulting .zip into your mods folder.
 3. Unzip, and enjoy!
 
 ## Updating
-The same as above, but delete any existing copy of Darker Days first.
-
-## Editing
-Darker Days was made with some modularity in mind, so if you don't like anything in particular, you can delete its folder without much trouble. 
+The same as above, but delete any existing copy of Darker Days first just in case.

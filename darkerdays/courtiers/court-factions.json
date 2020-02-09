@@ -1,7 +1,0 @@
-[
-  {
-    "type": "MONSTER_FACTION",
-    "name": "courtier",
-    "neutral": [ "small_animal", "fish" ]
-  }
-]

@@ -1,0 +1,34 @@
+plants+furniture:
+wolf's bane - mild anti-inflammatory + topical, sunflower looking
+cowslip - fruity smelling plant
+coltsfoot - alleviates cold symptoms
+belladonna - poisonous mfkers that taste sweet and look good but will kill your ass
+cattails - as per CDDA	
+Matricaria chamomilla/chamomile - tea
+
+carnations - pink flowers. no real use
+cornflowers
+mouse-ear chickweed
+larkspur - pretty poisonous totally
+
+chicory - coffee substitute
+
+trees:
+[x] oak: tanbark
+[x] hornbeam: stout tree, hard wood good for firewood and construction
+[x] linden: soft wood tree used for carvings, flowers used for tea (called tilleul)
+[x] beech: tall, thin tree. short grain wood good for dying and carving. but hard but easy to work with. good firewood. paper pulp. beechnuts can be eaten raw or cooked. raw = slightly poisonous. can be soaked and turned to flour. nuts have high tanniin content.
+[x] spruce: tall evergreen. softwood and paper. spruce beer from shoot tips in spring. spruce tips have good vitamin C 
+[x] silver fir
+[x] birch - bark can be used for constuction or burned into birch tar as a glue as well as a chewing gum. sap can be made into syrup
+[x] willow - bark replacement for tanbark
+
+bushes+terrain:
+
+reeds - collection of long, tough "grass" 
+bilberry - european blueberry with low yield. can make into a liqueor. spring, summer, fall
+
+
+NOT GUCCI:
+hydrangea (asia and the americas)
+dahlia (mexico and central america)

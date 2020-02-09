@@ -1,0 +1,109 @@
+[
+  {
+    "type": "terrain",
+    "id": "dd_t_window_shutters_c",
+    "name": "window with closed shutters",
+    "description": "A wooden window with closed shutters, secured with a latch. Quite flammable. The shutters will have to be removed if you wanted to barricade it, thought it's somewhat sturdy on its own.",
+    "symbol": "\"",
+    "looks_like": "t_curtains",
+    "color": "brown",
+    "move_cost": 0,
+    "coverage": 95,
+    "roof": "t_thatch_roof",
+    "flags": [ "NOITEM", "OPENCLOSE_INSIDE", "FLAMMABLE", "REDUCE_SCENT", "CONNECT_TO_WALL", "BLOCK_WIND" ],
+    "open": "dd_t_window_shutters",
+    "bash": {
+      "str_min": 3,
+      "str_max": 10,
+      "sound": "crash!",
+      "sound_fail": "wham!",
+      "sound_vol": 14,
+      "sound_fail_vol": 10,
+      "ter_set": "t_window_empty",
+      "items": [
+        { "item": "2x4", "count": [ 0, 1 ] },
+        { "item": "nail", "charges": [ 1, 4 ] },
+        { "item": "splinter", "count": [ 1, 4 ] },
+        { "item": "hinge", "count": [ 0, 1 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "dd_t_window_shutters",
+    "name": "window with open shutters",
+    "description": "A wooden window with open shutters, so you can see through. Quite flammable. The shutters will have to be removed if you wanted to barricade it, thought it's somewhat sturdy on its own.",
+    "symbol": "'",
+    "looks_like": "t_curtains",
+    "color": "brown",
+    "move_cost": 4,
+    "coverage": 60,
+    "roof": "t_thatch_roof",
+    "flags": [ "TRANSPARENT", "NOITEM", "OPENCLOSE_INSIDE", "FLAMMABLE", "MOUNTABLE", "CONNECT_TO_WALL" ],
+    "close": "dd_t_window_shutters",
+    "bash": {
+      "str_min": 10,
+      "str_max": 70,
+      "sound": "crash!",
+      "sound_fail": "wham!",
+      "sound_vol": 14,
+      "sound_fail_vol": 10,
+      "ter_set": "t_window_empty",
+      "items": [
+        { "item": "2x4", "count": [ 0, 1 ] },
+        { "item": "nail", "charges": [ 1, 4 ] },
+        { "item": "splinter", "count": [ 1, 4 ] },
+        { "item": "hinge", "count": [ 0, 1 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "dd_t_woodfloor_thatchroof",
+    "name": "dirt floor",
+    "description": "A wooden floor with a thatched roof above it.",
+    "symbol": ".",
+    "color": "brown",
+    "move_cost": 2,
+    "roof": "t_thatch_roof",
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT" ],
+    "bash": {
+      "sound": "SMASH!",
+      "ter_set": "t_null",
+      "str_min": 50,
+      "str_max": 400,
+      "str_min_supported": 100,
+      "items": [ { "item": "splinter", "count": [ 4, 10 ] }, { "item": "straw_pile", "charges": [ 5, 10 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "dd_t_door_barred",
+    "name": "closed wood door",
+    "description": "A standard wooden door that doesn't look very resilient.  It'd probably burn easily, too.  Though it has no visible lock, it looks like it's barred closed and won't open easily.  You could pry it open, or unbar it from the inside.",
+    "symbol": "+",
+    "looks_like": "t_door_c",
+    "color": "brown",
+    "move_cost": 0,
+    "coverage": 95,
+    "roof": "t_flat_roof",
+    "flags": [ "FLAMMABLE_ASH", "NOITEM", "OPENCLOSE_INSIDE", "REDUCE_SCENT", "CONNECT_TO_WALL", "BLOCK_WIND" ],
+    "examine_action": "locked_object",
+    "open": "t_door_o",
+    "bash": {
+      "str_min": 8,
+      "str_max": 80,
+      "str_min_blocked": 15,
+      "str_max_blocked": 100,
+      "sound": "smash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_door_b",
+      "items": [
+        { "item": "2x4", "prob": 25 },
+        { "item": "wood_panel", "prob": 10 },
+        { "item": "splinter", "count": [ 1, 2 ] },
+        { "item": "nail", "charges": [ 0, 2 ] }
+      ]
+    }
+  }
+]

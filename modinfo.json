@@ -4,8 +4,8 @@
     "ident": "darkerdays",
     "name": "Darker Days",
     "authors": [ "ephemeral_storyteller" ],
-    "description": "Adds a variety of new locations to explore and monsters to fight, priamrily themed after darker tones.",
-    "category": "creatures",
+    "description": "Moves the game in a medieval fantasy direction. Being a total conversion: use other mods at your own risk.",
+    "category": "content",
     "dependencies": [ "dda" ]
   }
 ]

@@ -1,0 +1,230 @@
+[
+  {
+    "type": "terrain",
+    "id": "dd_t_reeds",
+    "name": "reeds",
+    "description": "A very tall member of the grass family, growing on wet ground by bodies of water.",
+    "looks_like": "t_shrub",
+    "symbol": "'",
+    "color": "green",
+    "move_cost": 5,
+    "coverage": 60,
+    "flags": [ "DIGGABLE", "PLOWABLE" ],
+    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 40, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+  },
+  {
+    "type": "terrain",
+    "id": "dd_t_bigshrub",
+    "name": "large shrub",
+    "description": "A large, tall shrub.",
+    "looks_like": "t_tree_young",
+    "symbol": "#",
+    "color": "green",
+    "move_cost": 0,
+    "coverage": 70,
+    "flags": [ "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "PLACE_ITEM", "SHRUB" ],
+    "bash": {
+      "str_min": 4,
+      "str_max": 30,
+      "sound": "crunch.",
+      "sound_fail": "brush.",
+      "ter_set": "t_dirt",
+      "items": [ { "item": "withered", "prob": 50, "count": [ 1, 2 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "dd_t_hornbeam_tree",
+    "name": "hornbeam tree",
+    "looks_like": "t_tree",
+    "description": "A stout tree, famous for its tough wood that is often used in toolmaking.  You could cut it down with the right tools.",
+    "symbol": "7",
+    "color": [ "green", "green", "brown_green", "brown" ],
+    "//": "barren in winter",
+    "move_cost": 0,
+    "coverage": 80,
+    "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT" ],
+    "bash": {
+      "str_min": 90,
+      "str_max": 190,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_dirt",
+      "items": [ { "item": "stick_long", "count": [ 3, 10 ] }, { "item": "splinter", "count": [ 10, 25 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "dd_t_linden_tree",
+    "name": "linden tree",
+    "looks_like": "t_tree",
+    "description": "A small deciduous tree that grows little flowers. Its soft wood makes it a good choice for carving tools and sculptures.  When the flowers are in bloom, you could pick them.  You could cut it down with the right tools.",
+    "symbol": "7",
+    "color": [ "green", "green", "brown_green", "brown" ],
+    "//": "barren in winter",
+    "move_cost": 0,
+    "coverage": 80,
+    "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT" ],
+    "transforms_into": "dd_t_linden_tree_harvested",
+    "examine_action": "harvest_ter_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer" ],
+        "entries": [ { "drop": "linden_flowers", "base_num": [ 5, 9 ], "scale_num": [ 0, 0.5 ] } ]
+      }
+    ],
+    "bash": {
+      "str_min": 80,
+      "str_max": 180,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_dirt",
+      "items": [ { "item": "stick_long", "count": [ 3, 10 ] }, { "item": "splinter", "count": [ 10, 25 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "dd_t_linden_tree_harvested",
+    "name": "linden tree",
+    "looks_like": "t_tree_dead",
+    "description": "A small deciduous tree that grows little flowers. Its soft wood makes it a good choice for carving tools and sculptures.  You could cut it down with the right tools.",
+    "symbol": "7",
+    "color": [ "green", "green", "green", "brown" ],
+    "move_cost": 0,
+    "coverage": 80,
+    "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT", "HARVESTED" ],
+    "examine_action": "harvested_plant",
+    "transforms_into": "dd_t_linden_tree",
+    "bash": {
+      "str_min": 80,
+      "str_max": 180,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_dirt",
+      "items": [ { "item": "stick_long", "count": [ 3, 10 ] }, { "item": "splinter", "count": [ 10, 25 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "dd_t_spruce_tree",
+    "name": "spruce tree",
+    "looks_like": "t_tree",
+    "description": "A large, softwood evergreen covered in blunt needles.  In the right season, you could harvest the spruce tips.  You could cut it down with the right tools.",
+    "symbol": "7",
+    "color": [ "green", "green", "green", "green" ],
+    "move_cost": 0,
+    "coverage": 80,
+    "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT" ],
+    "transforms_into": "dd_t_spruce_tree_harvested",
+    "examine_action": "harvest_ter",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer" ],
+        "entries": [ { "drop": "spruce_tips", "base_num": [ 5, 12 ], "scale_num": [ 0, 0.5 ] } ]
+      }
+    ],
+    "bash": {
+      "str_min": 80,
+      "str_max": 180,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_dirt",
+      "items": [ { "item": "stick_long", "count": [ 3, 10 ] }, { "item": "splinter", "count": [ 10, 25 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "dd_t_spruce_tree_harvested",
+    "name": "spruce tree",
+    "looks_like": "t_tree_dead",
+    "description": "A large, softwood evergreen covered in blunt needles. You could cut it down with the right tools.",
+    "symbol": "7",
+    "color": [ "green", "green", "green", "green" ],
+    "move_cost": 0,
+    "coverage": 80,
+    "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT", "HARVESTED" ],
+    "examine_action": "harvested_plant",
+    "transforms_into": "dd_t_spruce_tree",
+    "bash": {
+      "str_min": 80,
+      "str_max": 180,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_dirt",
+      "items": [ { "item": "stick_long", "count": [ 3, 10 ] }, { "item": "splinter", "count": [ 10, 25 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "dd_t_fir_tree",
+    "name": "fir tree",
+    "looks_like": "t_tree",
+    "description": "A tall tree with silvery bark and strong, lightweight wood.  You could cut it down with the right tools.",
+    "symbol": "7",
+    "color": [ "green", "green", "green", "green" ],
+    "move_cost": 0,
+    "coverage": 75,
+    "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT" ],
+    "bash": {
+      "str_min": 90,
+      "str_max": 190,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_dirt",
+      "items": [ { "item": "stick_long", "count": [ 3, 10 ] }, { "item": "splinter", "count": [ 10, 25 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "dd_t_shrub_bilberry",
+    "name": "bilberry bush",
+    "description": "A small bush of soft, juicy bilberries.",
+    "symbol": "#",
+    "color": "light_blue_green",
+    "move_cost": 8,
+    "coverage": 40,
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT" ],
+    "transforms_into": "dd_t_shrub_bilberry_harvested",
+    "examine_action": "harvest_ter_nectar",
+    "looks_like": "t_shrub_blueberry",
+    "harvest_by_season": [
+      {
+        "seasons": [ "summer" ],
+        "entries": [
+          { "drop": "bilberries", "base_num": [ 2, 5 ], "scale_num": [ 0, 0.5 ] },
+          { "drop": "seed_bilberry", "base_num": [ 1, 2 ], "scale_num": [ 0, 0.25 ] }
+        ]
+      }
+    ],
+    "bash": {
+      "str_min": 4,
+      "str_max": 60,
+      "sound": "crunch.",
+      "sound_fail": "brush.",
+      "ter_set": "t_dirt",
+      "items": [ { "item": "withered", "prob": 50, "count": [ 1, 2 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "dd_t_shrub_bilberry_harvested",
+    "name": "bilberry bush",
+    "looks_like": "t_shrub",
+    "description": "A small bilberry bush that's fruitless.",
+    "symbol": "#",
+    "color": "blue_green",
+    "move_cost": 8,
+    "coverage": 40,
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT", "HARVESTED" ],
+    "transforms_into": "dd_t_shrub_bilberry",
+    "examine_action": "harvested_plant",
+    "bash": {
+      "str_min": 4,
+      "str_max": 60,
+      "sound": "crunch.",
+      "sound_fail": "brush.",
+      "ter_set": "t_dirt",
+      "items": [ { "item": "withered", "prob": 50, "count": [ 1, 2 ] } ]
+    }
+  }
+]

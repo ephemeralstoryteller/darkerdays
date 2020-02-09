@@ -1,0 +1,17 @@
+[
+  {
+    "type": "palette",
+    "id": "dd_serf_palette",
+    "terrain": {
+      ".": [ [ "t_region_groundcover_urban", 20 ], [ "t_region_tree", 3 ], "f_region_weed" ],
+      " ": "t_dirtfloor_thatchroof",
+      ",": [ [ "t_dirt ", 5 ], "t_grass" ],
+      "+": [ [ "t_door_c", 3 ], "t_door_o" ],
+      "#": "t_wall_wattle",
+      "[": [ [ "dd_t_window_shutters", 2 ], "dd_t_window_shutters_c" ]
+    }
+  },
+  {
+    "furniture": { "b": "f_bench", "B": "f_straw_bed", "T": "f_table", "o": "dd_f_barrel", "x": "dd_f_chest" }
+  }
+]
