@@ -1,0 +1,29 @@
+id, name/desc
+
+materials:
+wool, hemp, and linen
+
+vanilla clothes
+tunic, tunic (slightly better tunic, a bit more rare)
+sleeveless_tunic, sleeveless tunic
+tunic_rag, a ratty tunic (most serfs) 
+tights, footed undergarments
+boots, with a bit of changes. usually worn in the winter.
+cloaks and capes
+
+mod clothes
+dd_tunic_long, long tunic (women's tunic): has a train of fabric that can be hoisted to form a pouch or a hood https://www.thoughtco.com/european-peasant-dress-1788614
+dd_thick_tunic, warm tunic made of wool
+dd_apron, linen or hemp 
+dd_chemise, long feminine undergarment
+dd_undertunic, long sleeved garment worn under the tunic
+dd_schert, short masculine undershirt
+dd_ropebelt, like a belt but made of rope
+dd_braies, knee-length underpants
+dd_hose, footless leg coverings
+dd_fancyhose, not *necessary*. fancy clothing for the legs with garters. a little encumbering
+dd_fancyboot, encumbering pointy shoe
+dd_mantle, hooded garment that hangs around the shoulders. can be pulled up to cover mouth?
+dd_coif, medieval standalone hood
+dd_woolcloak, waterproof cloak
+dd_turnshoe: basically like a leather sneaker

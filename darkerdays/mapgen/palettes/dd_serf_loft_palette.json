@@ -1,0 +1,16 @@
+[
+  {
+    "type": "palette",
+    "id": "dd_serf_loft_palette",
+    "terrain": {
+      ".": "open_air",
+      "~": "t_open_air_rooved",
+      ",": [ [ "t_dirt ", 5 ], "t_grass" ],
+      "+": [ [ "t_door_c", 3 ], "t_door_o" ],
+      "#": "t_wall_wattle"
+    }
+  },
+  {
+    "furniture": { "b": "f_bench", "B": "f_straw_bed", "T": "f_table", "o": "dd_f_barrel", "x": "dd_f_chest" }
+  }
+]
