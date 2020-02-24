@@ -24,6 +24,59 @@
   },
   {
     "type": "terrain",
+    "id": "t_pavement",
+    "name": "cobble road",
+    "connects_to": "PAVEMENT",
+    "description": "A section of mixed stone roadway, first laid long ago and worn with heavy use.",
+    "symbol": ".",
+    "color": "dark_gray",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD", "MINEABLE" ],
+    "bash": {
+      "ter_set": "t_null",
+      "str_min": 50,
+      "str_max": 400,
+      "str_min_supported": 100,
+      "items": [ { "item": "rock", "count": [ 2, 15 ] } } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_pavement_y",
+    "name": "cobble road",
+    "connects_to": "PAVEMENT",
+    "description": "A section of mixed stone roadway, first laid long ago and worn with heavy use.",
+    "symbol": ".",
+    "color": "dark_gray",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD", "MINEABLE" ],
+    "bash": {
+      "ter_set": "t_null",
+      "str_min": 50,
+      "str_max": 400,
+      "str_min_supported": 100,
+      "items": [ { "item": "rock", "count": [ 2, 15 ] } } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_sidewalk",
+    "name": "stone path",
+    "description": "A well trodden stone-paved path.",
+    "symbol": ".",
+    "color": "light_gray",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD", "MINEABLE" ],
+    "bash": {
+      "ter_set": "t_null",
+      "str_min": 50,
+      "str_max": 400,
+      "str_min_supported": 100,
+      "items": [ { "item": "rock", "count": [ 2, 15 ] } } ]
+    }
+  },
+  {
+    "type": "terrain",
     "id": "t_underbrush",
     "name": "underbrush",
     "looks_like": "t_shrub",

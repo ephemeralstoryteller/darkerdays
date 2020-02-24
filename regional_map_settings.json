@@ -261,8 +261,8 @@
           "mx_point_burned_ground": 50
         }
       },
-      "road": { "chance": 75, "extras": { "placeholder": 0 } },
-      "build": { "chance": 90, "extras": { "mx_point_burned_ground": 5 } }
+      "road": { "chance": 75, "extras": { "mx_null": 0 } },
+      "build": { "chance": 90, "extras": { "mx_null": 0 } }
     },
     "city": {
       "shop_radius": 60,
@@ -270,9 +270,9 @@
       "park_radius": 60,
       "park_sigma": 80,
       "house_basement_chance": 5,
-      "houses": { "placeholder": 0 },
-      "parks": { "placeholder": 0 },
-      "shops": { "placeholder": 0 }
+      "houses": {  },
+      "parks": {  },
+      "shops": {  }
     },
     "weather": {
       "base_temperature": 10,
@@ -285,9 +285,9 @@
     },
     "overmap_feature_flag_settings": {
       "clear_blacklist": false,
-      "blacklist": [ "BEE", "ANT", "FUNGAL", "BLOB", "SLIME", "TRIFFID", "MI-GO" ],
-      "clear_whitelist": true,
-      "whitelist": [ "WILDERNESS", "FARM" ]
+      "blacklist": [ "BEE", "ANT", "FUNGAL", "BLOB", "SLIME", "TRIFFID", "MI-GO", "FARM", "CLASSIC" ],
+      "clear_whitelist": false,
+      "whitelist": [  ]
     }
   }
 ]

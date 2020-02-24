@@ -4,7 +4,7 @@
     "ident": "darkerdays",
     "name": "Darker Days",
     "authors": [ "ephemeral_storyteller" ],
-    "description": "Moves the game in a medieval fantasy direction. Being a total conversion: use other mods at your own risk.",
+    "description": "A total overhaul to turn the game into dark fantasy survival. Use other mods at your own risk.",
     "category": "content",
     "dependencies": [ "dda" ]
   }
