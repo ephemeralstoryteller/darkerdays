@@ -64,7 +64,7 @@
     "bgcolor": "red",
     "move_cost_mod": -1,
     "coverage": 60,
-	"//": "a bit easier to move than a crate, given that you may be able to tip it over and roll it about. hopefully. ;p",
+    "//": "a bit easier to move than a crate, given that you may be able to tip it over and roll it about. hopefully. ;p",
     "required_str": 10,
     "flags": [
       "TRANSPARENT",
@@ -110,5 +110,5 @@
       "sound_fail": "wham!",
       "items": [ { "item": "2x4", "count": [ 1, 5 ] }, { "item": "nail", "charges": [ 2, 10 ] } ]
     }
-  }	
+  }
 ]
