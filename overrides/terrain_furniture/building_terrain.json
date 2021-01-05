@@ -21,7 +21,7 @@
   },
   {
     "id": "t_floor_primitive",
-	"type": "terrain",
+    "type": "terrain",
     "name": "floor",
     "description": "A timber floor and supports, holding up a sod roof.",
     "symbol": ".",

@@ -1,4 +1,4 @@
-[  
+[
   {
     "type": "terrain",
     "id": "t_grass_dead",
@@ -37,7 +37,7 @@
       "str_min": 50,
       "str_max": 400,
       "str_min_supported": 100,
-      "items": [ { "item": "rock", "count": [ 2, 15 ] } } ]
+      "items": [ { "item": "rock", "count": [ 2, 15 ] } ]
     }
   },
   {
@@ -55,7 +55,7 @@
       "str_min": 50,
       "str_max": 400,
       "str_min_supported": 100,
-      "items": [ { "item": "rock", "count": [ 2, 15 ] } } ]
+      "items": [ { "item": "rock", "count": [ 2, 15 ] } ]
     }
   },
   {
@@ -72,7 +72,7 @@
       "str_min": 50,
       "str_max": 400,
       "str_min_supported": 100,
-      "items": [ { "item": "rock", "count": [ 2, 15 ] } } ]
+      "items": [ { "item": "rock", "count": [ 2, 15 ] } ]
     }
   },
   {
